@@ -30,12 +30,12 @@ This repository hosts the official coursework project for **Big Data Analytics (
 
 | Resource | Target Link | Description |
 | :--- | :--- | :--- |
-| **Interactive Colab Session (Drive)** | [Open in Google Colab (Drive)](https://colab.research.google.com/drive/11_CaVUcowf4VQ6lwV51AMwz9EXbf082p) | Live cloud notebook instance stored in Google Drive |
+| **Interactive Colab Session (Drive)** | [Open in Google Colab (Drive)](https://colab.research.google.com/drive/1LRu6eAmTATAlNKFARKWT47g9sb5oqIt6) | Live cloud notebook instance stored in Google Drive |
 | **Interactive Colab Session (GitHub)** | [Launch via GitHub](https://colab.research.google.com/github/0xrizz/olist-ecommerce-eda/blob/main/main.ipynb) | One-click instant cloud runtime with pre-executed cells |
-| **Main Notebook File** | [Google Drive File](https://drive.google.com/file/d/11_CaVUcowf4VQ6lwV51AMwz9EXbf082p/view?usp=drive_link) | Direct access to `main.ipynb` (38 cells, 17 executed code cells) |
-| **Raw Datasets Folder** | [Google Drive Data Raw](https://drive.google.com/drive/folders/1ThnaciQefpKZxkSeI9DAktUeAKCOuK2-?usp=drive_link) | Unprocessed CSV source datasets from Kaggle Olist |
-| **Processed Datasets Folder** | [Google Drive Data Processed](https://drive.google.com/drive/folders/13pPoj6V8qU_oq20GbmbXqPdR2k9Hdt-g?usp=drive_link) | Cleaned, validated, and integrated transactional CSV |
-| **Master Coursework Drive Folder** | [Google Drive Submission Folder](https://drive.google.com/drive/folders/1aWfUipbLlvZINFzDbY7F5TA2XWoIrIB1?usp=drive_link) | Complete project repository archive on Google Drive |
+| **Main Notebook File** | [Google Drive File](https://drive.google.com/file/d/1LRu6eAmTATAlNKFARKWT47g9sb5oqIt6/view?usp=sharing) | Direct access to `main.ipynb` (38 cells, 17 executed code cells) |
+| **Raw Datasets Folder** | [Google Drive Data Raw](https://drive.google.com/drive/folders/1lwPIEO_yU7dNcOpuYSvm3UiLoFMDssCE?usp=drive_link) | Unprocessed CSV source datasets from Kaggle Olist |
+| **Processed Datasets Folder** | [Google Drive Data Processed](https://drive.google.com/drive/folders/1BaOGlF5RyRtpOiKDUqvnwMSvmKy_8VDI?usp=drive_link) | Cleaned, validated, and integrated transactional CSV |
+| **Master Coursework Drive Folder** | [Google Drive Submission Folder](https://drive.google.com/drive/folders/1gn5e98SxkHPDqa5C0pujX-zFASDZY-Ms?usp=drive_link) | Complete project repository archive on Google Drive |
 | **Formal Publication PDF** | [report.pdf](./report.pdf) | Formal 7-chapter FEB UNESA report rendered with newsletter typography |
 
 ---

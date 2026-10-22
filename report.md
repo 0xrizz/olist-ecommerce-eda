@@ -21,7 +21,7 @@ Exploratory Data Analysis Profitabilitas, Efisiensi Rantai Pasok, dan Beban Logi
 | **Penyusun Laporan** | 1. **Pramono Tirta Luhung** (NIM: 23081494340)<br>2. **Achmad Azhar Abdullah** (NIM: 23081494303) |
 
 <div class="cover-colab-badge">
-  <a href="https://colab.research.google.com/drive/11_CaVUcowf4VQ6lwV51AMwz9EXbf082p" target="_blank" style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+  <a href="https://colab.research.google.com/drive/1LRu6eAmTATAlNKFARKWT47g9sb5oqIt6" target="_blank" style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
     <img src="figures/colab-logo.svg" class="cover-colab-logo" alt="Google Colab" />
     <span class="cover-colab-text">Google Colaboratory Cloud Engine</span>
   </a>
@@ -336,12 +336,12 @@ Seluruh artefak proyek, naskah, kode sumber pipeline, dataset mentah, dan datase
 
 | Kategori Sumber Daya | Deskripsi Berkas / Folder | Tautan Akses Langsung |
 | :--- | :--- | :--- |
-| **Folder Utama Google Drive** | Direktori induk pengumpulan tugas proyek UTS Big Data Analytics | [Buka Folder Google Drive](https://drive.google.com/drive/folders/1aWfUipbLlvZINFzDbY7F5TA2XWoIrIB1?usp=drive_link) |
-| **Berkas Notebook Utama** | Berkas `main.ipynb` tereksekusi 100% lengkap tabel dan grafik visualisasi | [Buka Berkas main.ipynb](https://drive.google.com/file/d/11_CaVUcowf4VQ6lwV51AMwz9EXbf082p/view?usp=drive_link) |
-| **Dataset Mentah (Data Raw)** | Folder direktori CSV mentah (`order_items.csv`, `products.csv`, `orders.csv`) | [Buka Folder Data Raw](https://drive.google.com/drive/folders/1ThnaciQefpKZxkSeI9DAktUeAKCOuK2-?usp=drive_link) |
-| **Dataset Olahan (Data Processed)** | Folder direktori CSV hasil pembersihan (`ecommerce_integrated_clean.csv`) | [Buka Folder Data Processed](https://drive.google.com/drive/folders/13pPoj6V8qU_oq20GbmbXqPdR2k9Hdt-g?usp=drive_link) |
+| **Folder Utama Google Drive** | Direktori induk pengumpulan tugas proyek UTS Big Data Analytics | [Buka Folder Google Drive](https://drive.google.com/drive/folders/1gn5e98SxkHPDqa5C0pujX-zFASDZY-Ms?usp=drive_link) |
+| **Berkas Notebook Utama** | Berkas `main.ipynb` tereksekusi 100% lengkap tabel dan grafik visualisasi | [Buka Berkas main.ipynb](https://drive.google.com/file/d/1LRu6eAmTATAlNKFARKWT47g9sb5oqIt6/view?usp=sharing) |
+| **Dataset Mentah (Data Raw)** | Folder direktori CSV mentah (`order_items.csv`, `products.csv`, `orders.csv`) | [Buka Folder Data Raw](https://drive.google.com/drive/folders/1lwPIEO_yU7dNcOpuYSvm3UiLoFMDssCE?usp=drive_link) |
+| **Dataset Olahan (Data Processed)** | Folder direktori CSV hasil pembersihan (`ecommerce_integrated_clean.csv`) | [Buka Folder Data Processed](https://drive.google.com/drive/folders/1BaOGlF5RyRtpOiKDUqvnwMSvmKy_8VDI?usp=drive_link) |
 | **Repositori Publik GitHub** | Repositori kode sumber terbuka berstandar portofolio profesional | [github.com/0xrizz/olist-ecommerce-eda](https://github.com/0xrizz/olist-ecommerce-eda) |
-| **Sesi Interaktif Google Colab (Drive)** | Sesi komputasi cloud interaktif terhubung langsung ke Google Drive | [Jalankan di Google Colab (Drive)](https://colab.research.google.com/drive/11_CaVUcowf4VQ6lwV51AMwz9EXbf082p) |
+| **Sesi Interaktif Google Colab (Drive)** | Sesi komputasi cloud interaktif terhubung langsung ke Google Drive | [Jalankan di Google Colab (Drive)](https://colab.research.google.com/drive/1LRu6eAmTATAlNKFARKWT47g9sb5oqIt6) |
 | **Sesi Interaktif Google Colab (GitHub)** | Sesi komputasi cloud interaktif one-click run via GitHub | [Jalankan di Google Colab (GitHub)](https://colab.research.google.com/github/0xrizz/olist-ecommerce-eda/blob/main/main.ipynb) |
 
 ### 7.7 Checklist Kepatuhan Tugas Mahasiswa
