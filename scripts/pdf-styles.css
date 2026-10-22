@@ -1,0 +1,203 @@
+@page {
+  size: A4 portrait;
+  margin: 20mm 20mm 25mm 25mm;
+}
+
+@page :first {
+  margin: 25mm 20mm 25mm 25mm;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.55;
+  color: #1e293b;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #0f172a;
+  font-weight: 700;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+h1:first-of-type {
+  font-size: 19pt;
+  color: #1e3a8a;
+  text-align: center;
+  border-bottom: 3px double #1e3a8a;
+  padding-bottom: 8px;
+  margin-top: 10pt;
+  margin-bottom: 6pt;
+}
+
+h1:first-of-type + h2 {
+  font-size: 13pt;
+  color: #3b82f6;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 16pt;
+}
+
+h2 {
+  font-size: 13.5pt;
+  color: #1e3a8a;
+  border-bottom: 1.5pt solid #93c5fd;
+  padding-bottom: 4px;
+  margin-top: 22pt;
+  margin-bottom: 10pt;
+  page-break-before: auto;
+}
+
+h3 {
+  font-size: 11pt;
+  color: #0f172a;
+  margin-top: 14pt;
+  margin-bottom: 6pt;
+}
+
+h4 {
+  font-size: 10pt;
+  color: #334155;
+  margin-top: 10pt;
+  margin-bottom: 4pt;
+}
+
+p {
+  margin: 7pt 0;
+  text-align: justify;
+}
+
+/* Cover page break */
+hr:first-of-type {
+  border: 0;
+  height: 1px;
+  background: #cbd5e1;
+  margin: 16pt 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10pt 0;
+  font-size: 8.5pt;
+  line-height: 1.35;
+}
+
+table th, table td {
+  border: 0.75pt solid #94a3b8;
+  padding: 5pt 7pt;
+  vertical-align: top;
+}
+
+thead {
+  display: table-header-group;
+}
+
+th {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+tr {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Code Blocks */
+pre {
+  background-color: #f8fafc;
+  border: 0.75pt solid #cbd5e1;
+  border-left: 3pt solid #3b82f6;
+  border-radius: 4pt;
+  padding: 8pt 10pt;
+  font-size: 8pt;
+  line-height: 1.4;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  overflow-x: auto;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin: 9pt 0;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 8.2pt;
+  background-color: #f1f5f9;
+  padding: 1.5pt 3.5pt;
+  border-radius: 3pt;
+  border: 0.5pt solid #e2e8f0;
+  color: #0f172a;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  font-size: inherit;
+}
+
+/* Images & Figures */
+img {
+  display: block;
+  max-width: 95%;
+  height: auto;
+  margin: 10pt auto 4pt auto;
+  border-radius: 4pt;
+  border: 0.75pt solid #cbd5e1;
+  box-shadow: 0 1pt 3pt rgba(0, 0, 0, 0.06);
+}
+
+p:has(img) {
+  text-align: center;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin: 12pt 0;
+}
+
+/* Blockquotes & Callouts */
+blockquote {
+  border-left: 3pt solid #2563eb;
+  background-color: #eff6ff;
+  margin: 9pt 0;
+  padding: 6pt 10pt;
+  color: #1e40af;
+  font-size: 9pt;
+  border-radius: 0 4pt 4pt 0;
+}
+
+/* Lists */
+ul, ol {
+  margin: 6pt 0;
+  padding-left: 18pt;
+}
+
+li {
+  margin-bottom: 3pt;
+}
+
+/* Links */
+a {
+  color: #1d4ed8;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+/* Cover page break rule */
+.cover-end {
+  page-break-after: always;
+  break-after: page;
+}

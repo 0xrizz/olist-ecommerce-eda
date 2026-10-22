@@ -20,6 +20,8 @@
 
 ---
 
+<div class="cover-end"></div>
+
 ## 1. Permasalahan Bisnis dan Data Collection
 
 ### 1.1 Konteks Usaha dan Organisasi

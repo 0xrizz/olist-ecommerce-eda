@@ -1,0 +1,9 @@
+{
+  "name": "big-data-uts-week6",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export:pdf": "node scripts/export-pdf.mjs"
+  }
+}
