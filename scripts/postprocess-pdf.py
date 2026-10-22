@@ -21,7 +21,7 @@ WEEK6_ROOT = SCRIPT_DIR.parent
 DEFAULT_PDF = WEEK6_ROOT / "laporan-proyek-uts.pdf"
 
 TARGET_HEADINGS = [
-    (1, "Halaman Judul & Identitas Proyek", r"LAPORAN RESMI PROYEK UJIAN TENGAH SEMESTER", 1),
+    (1, "Halaman Judul & Identitas Proyek", r"LAPORAN.*PROYEK UJIAN TENGAH SEMESTER", 1),
     (1, "1. Permasalahan Bisnis dan Data Collection", r"1\.\s*Permasalahan Bisnis dan Data Collection", 2),
     (2, "1.1 Konteks Usaha dan Organisasi", r"1\.1\s*Konteks Usaha dan Organisasi", 2),
     (2, "1.2 Permasalahan Bisnis Utama", r"1\.2\s*Permasalahan Bisnis Utama", 2),
@@ -63,7 +63,7 @@ TARGET_HEADINGS = [
     (2, "7.3 Kesimpulan Strategis Menjawab Permasalahan Utama", r"7\.3\s*Kesimpulan Strategis", 2),
     (2, "7.4 Kebutuhan Data Tambahan untuk Analisis Lanjutan", r"7\.4\s*Kebutuhan Data Tambahan", 2),
     (2, "7.5 Daftar Pustaka dan Rujukan Ilmiah", r"7\.5\s*Daftar Pustaka dan Rujukan", 2),
-    (2, "7.6 Tautan Akses Google Drive dan Interactive Google Colab", r"7\.6\s*Tautan Akses Google Drive", 2),
+    (2, "7.6 Tautan Akses Google Drive, GitHub, dan Colab", r"7\.6\s*Tautan Akses Google Drive", 2),
     (2, "7.7 Checklist Kepatuhan Tugas Mahasiswa", r"7\.7\s*Checklist Kepatuhan", 2),
 ]
 

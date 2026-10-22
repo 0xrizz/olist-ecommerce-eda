@@ -6,7 +6,7 @@
 
 <hr />
 
-# LAPORAN RESMI PROYEK UJIAN TENGAH SEMESTER (UTS)
+# LAPORAN PROYEK UJIAN TENGAH SEMESTER (UTS)
 ## BIG DATA ANALYTICS: EXPLORATORY DATA ANALYSIS DI GOOGLE COLAB
 
 <p style="text-align: center; font-family: 'Charter', 'Merriweather', 'Georgia', serif; font-size: 13.5pt; font-weight: 700; margin: 14pt 0 16pt 0; color: #111827;">
@@ -18,15 +18,13 @@ Exploratory Data Analysis Profitabilitas, Efisiensi Rantai Pasok, dan Beban Logi
 | **Mata Kuliah** | Big Data Analytics (3 SKS) |
 | **Dosen Pengampu** | **Anita Safitri, M. Kom.** |
 | **Program Studi / Angkatan** | S1 Bisnis Digital 2023 (Kelas Konsultan) |
-| **Sifat Proyek** | Group Project (2 Mahasiswa) |
 | **Penyusun Laporan** | 1. **Pramono Tirta Luhung** (NIM: 23081494340)<br>2. **Achmad Azhar Abdullah** (NIM: 23081494303) |
-| **Tanggal Pengumpulan** | 22 Oktober 2026 |
-| **Tautan Google Drive** | [Folder Berkas Proyek UTS Kelompok](https://drive.google.com/drive/folders/1yckA9FyN3rJVdU3YHm6fBjK1odAP3MO) |
-| **Tautan Google Colab** | [Notebook Interaktif Google Colab](https://colab.research.google.com/drive/1yckA9FyN3rJVdU3YHm6fBjK1odAP3MO) |
 
 <div class="cover-colab-badge">
-  <img src="figures/colab-logo.svg" class="cover-colab-logo" alt="Google Colab" />
-  <span class="cover-colab-text">Executed & Verified on Google Colaboratory Cloud Engine (Python 3 Kernel)</span>
+  <a href="https://colab.research.google.com/drive/11_CaVUcowf4VQ6lwV51AMwz9EXbf082p" target="_blank" style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+    <img src="figures/colab-logo.svg" class="cover-colab-logo" alt="Google Colab" />
+    <span class="cover-colab-text">Google Colaboratory Cloud Engine</span>
+  </a>
 </div>
 
 <div class="cover-end"></div>
@@ -332,9 +330,19 @@ Berdasarkan investigasi data eksploratif terhadap rantai pasok dan performa tran
 6. Universitas Negeri Surabaya. (2026). *Naskah Ujian Tengah Semester Gasal 2026/2027: Mata Kuliah Big Data Analytics*. Program Studi S1 Bisnis Digital, Fakultas Ekonomika dan Bisnis, Universitas Negeri Surabaya.
 7. Waskom, M. L. (2021). seaborn: statistical data visualization. *Journal of Open Source Software*, 6(60), 3021. https://doi.org/10.21105/joss.03021
 
-### 7.6 Tautan Akses Google Drive dan Interactive Google Colab
-- **Tautan Folder Google Drive Tugas Kelompok**: [Folder Berkas Proyek UTS Kelompok](https://drive.google.com/drive/folders/1yckA9FyN3rJVdU3YHm6fBjK1odAP3MO)
-- **Tautan Interactive Google Colab Notebook**: [Notebook Interaktif Google Colab](https://colab.research.google.com/drive/1yckA9FyN3rJVdU3YHm6fBjK1odAP3MO)
+### 7.6 Tautan Akses Google Drive, Repositori Publik GitHub, dan Sesi Google Colab
+
+Seluruh artefak proyek, naskah, kode sumber pipeline, dataset mentah, dan dataset olahan telah diunggah dan dapat diakses secara publik melalui tautan resmi berikut:
+
+| Kategori Sumber Daya | Deskripsi Berkas / Folder | Tautan Akses Langsung |
+| :--- | :--- | :--- |
+| **Folder Utama Google Drive** | Direktori induk pengumpulan tugas proyek UTS Big Data Analytics | [Buka Folder Google Drive](https://drive.google.com/drive/folders/1aWfUipbLlvZINFzDbY7F5TA2XWoIrIB1?usp=drive_link) |
+| **Berkas Notebook Utama** | Berkas `main.ipynb` tereksekusi 100% lengkap tabel dan grafik visualisasi | [Buka Berkas main.ipynb](https://drive.google.com/file/d/11_CaVUcowf4VQ6lwV51AMwz9EXbf082p/view?usp=drive_link) |
+| **Dataset Mentah (Data Raw)** | Folder direktori CSV mentah (`order_items.csv`, `products.csv`, `orders.csv`) | [Buka Folder Data Raw](https://drive.google.com/drive/folders/1ThnaciQefpKZxkSeI9DAktUeAKCOuK2-?usp=drive_link) |
+| **Dataset Olahan (Data Processed)** | Folder direktori CSV hasil pembersihan (`ecommerce_integrated_clean.csv`) | [Buka Folder Data Processed](https://drive.google.com/drive/folders/13pPoj6V8qU_oq20GbmbXqPdR2k9Hdt-g?usp=drive_link) |
+| **Repositori Publik GitHub** | Repositori kode sumber terbuka berstandar portofolio profesional | [github.com/0xrizz/olist-ecommerce-eda](https://github.com/0xrizz/olist-ecommerce-eda) |
+| **Sesi Interaktif Google Colab (Drive)** | Sesi komputasi cloud interaktif terhubung langsung ke Google Drive | [Jalankan di Google Colab (Drive)](https://colab.research.google.com/drive/11_CaVUcowf4VQ6lwV51AMwz9EXbf082p) |
+| **Sesi Interaktif Google Colab (GitHub)** | Sesi komputasi cloud interaktif one-click run via GitHub | [Jalankan di Google Colab (GitHub)](https://colab.research.google.com/github/0xrizz/olist-ecommerce-eda/blob/main/main.ipynb) |
 
 ### 7.7 Checklist Kepatuhan Tugas Mahasiswa
 
