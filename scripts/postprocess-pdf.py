@@ -38,28 +38,33 @@ TARGET_HEADINGS = [
     (1, "3. Data Preprocessing", r"3\.\s*Data Preprocessing", 2),
     (2, "3.1 Hasil Audit Awal Kualitas Data", r"3\.1\s*Hasil Audit Awal", 2),
     (2, "3.2 Tabel Dokumentasi Masalah dan Tindakan Perbaikan", r"3\.2\s*Tabel Dokumentasi Masalah", 2),
-    (2, "3.3 Tabel Komparasi Jumlah Baris Sebelum dan Sesudah", r"3\.3\s*Tabel Komparasi Jumlah Baris", 2),
+    (2, "3.3 Urutan Pembersihan dan Rasionalisasi Metodologis", r"3\.3\s*Urutan Pembersihan", 2),
+    (2, "3.4 Penanganan Nilai Ekstrem (Outlier)", r"3\.4\s*Penanganan Nilai Ekstrem", 2),
+    (2, "3.5 Tabel Rekonsiliasi Jumlah Baris Sebelum dan Sesudah", r"3\.5\s*Tabel Rekonsiliasi Jumlah Baris", 2),
     (1, "4. Data Integration dan Data Transformation", r"4\.\s*Data Integration dan Data Transformation", 2),
     (2, "4.1 Logika dan Kriteria Integrasi Data", r"4\.1\s*Logika dan Kriteria Integrasi", 2),
-    (2, "4.2 Tabel Audit Evaluasi Join", r"4\.2\s*Tabel Audit Evaluasi Join", 2),
-    (2, "4.3 Pembentukan Variabel Turunan (Feature Engineering)", r"4\.3\s*Pembentukan Variabel Turunan", 2),
+    (2, "4.2 Spesifikasi Relasi Join dan Kardinalitas", r"4\.2\s*Spesifikasi Relasi Join", 2),
+    (2, "4.3 Tabel Audit Evaluasi Join", r"4\.3\s*Tabel Audit Evaluasi Join", 2),
+    (2, "4.4 Pembentukan Variabel Turunan (Feature Engineering)", r"4\.4\s*Pembentukan Variabel Turunan", 2),
+    (2, "4.5 Validasi Transformasi", r"4\.5\s*Validasi Transformasi", 2),
     (1, "5. Data Analysis", r"5\.\s*Data Analysis", 2),
     (2, "5.1 Ringkasan Statistik Deskriptif Numerik", r"5\.1\s*Ringkasan Statistik Deskriptif", 2),
     (2, "5.2 Analisis 1: Kontributor Utama GMV dan Volume (Q1)", r"5\.2\s*Analisis 1", 2),
     (2, "5.3 Analisis 2: Profil Beban Ongkos Kirim per Kategori (Q2)", r"5\.3\s*Analisis 2", 2),
     (2, "5.4 Analisis 3: Evaluasi Performa SLA Pengiriman (Q3)", r"5\.4\s*Analisis 3", 2),
+    (2, "5.5 Ringkasan Temuan Analisis dan Keterbatasan Komparasi", r"5\.5\s*Ringkasan Temuan Analisis", 2),
     (1, "6. Data Visualization dan Interpretasi", r"6\.\s*Data Visualization dan Interpretasi", 2),
-    (2, "6.1 Grafik 1: Horizontal Bar Chart — Top 10 GMV", r"6\.1\s*Grafik 1", 2),
-    (2, "6.2 Grafik 2: Multivariate Scatter Plot — Harga vs Ongkir", r"6\.2\s*Grafik 2", 2),
-    (2, "6.3 Grafik 3: Dual-Axis Bar Chart — Evaluasi SLA Logistik", r"6\.3\s*Grafik 3", 2),
+    (2, "6.1 Grafik 1: Horizontal Bar Chart - Top 10 GMV", r"6\.1\s*Grafik 1", 2),
+    (2, "6.2 Grafik 2: Multivariate Scatter Plot - Sebaran Harga vs Ongkir", r"6\.2\s*Grafik 2", 2),
+    (2, "6.3 Grafik 3: Dual-Axis Grouped Bar Chart - Evaluasi SLA Logistik", r"6\.3\s*Grafik 3", 2),
     (1, "7. Insight Bisnis, Rekomendasi, dan Pengumpulan", r"7\.\s*Insight Bisnis, Rekomendasi", 2),
-    (2, "7.1 Tabel Perumusan Insight dan Rekomendasi Tindakan", r"7\.1\s*Tabel Perumusan Insight", 2),
-    (2, "7.2 Rekomendasi yang Paling Diprioritaskan", r"7\.2\s*Rekomendasi yang Paling Diprioritaskan", 2),
-    (2, "7.3 Kesimpulan Akhir", r"7\.3\s*Kesimpulan Akhir", 2),
-    (2, "7.4 Data Tambahan yang Diperlukan", r"7\.4\s*Data Tambahan yang Diperlukan", 2),
-    (1, "8. Daftar Pustaka dan Rujukan", r"8\.\s*Daftar Pustaka dan Rujukan", 2),
-    (1, "9. Manifest Pengumpulan Berkas", r"9\.\s*Manifest Pengumpulan Berkas", 2),
-    (1, "10. Checklist Akhir Kepatuhan Spesifikasi", r"10\.\s*Checklist Akhir Kepatuhan", 2),
+    (2, "7.1 Tabel Perumusan Insight Bisnis dan Rekomendasi Tindakan", r"7\.1\s*Tabel Perumusan Insight", 2),
+    (2, "7.2 Rekomendasi yang Paling Diprioritaskan dan Justifikasi Bisnis", r"7\.2\s*Rekomendasi yang Paling Diprioritaskan", 2),
+    (2, "7.3 Kesimpulan Strategis Menjawab Permasalahan Utama", r"7\.3\s*Kesimpulan Strategis", 2),
+    (2, "7.4 Kebutuhan Data Tambahan untuk Analisis Lanjutan", r"7\.4\s*Kebutuhan Data Tambahan", 2),
+    (2, "7.5 Daftar Pustaka dan Rujukan Ilmiah", r"7\.5\s*Daftar Pustaka dan Rujukan", 2),
+    (2, "7.6 Tautan Akses Google Drive dan Interactive Google Colab", r"7\.6\s*Tautan Akses Google Drive", 2),
+    (2, "7.7 Checklist Kepatuhan Tugas Mahasiswa", r"7\.7\s*Checklist Kepatuhan", 2),
 ]
 
 
@@ -102,15 +107,15 @@ def stamp_headers_and_footers(doc):
     footer_line_y = 806.0
     footer_text_y = 818.0
 
-    divider_color = (0.75, 0.82, 0.90)   # subtle soft blue
-    header_color = (0.35, 0.42, 0.52)    # slate blue
-    footer_color = (0.25, 0.32, 0.42)
+    divider_color = (0.80, 0.80, 0.80)   # subtle monochrome divider
+    header_color = (0.35, 0.35, 0.35)    # neutral dark slate
+    footer_color = (0.40, 0.40, 0.40)    # neutral slate gray
     font_size = 7.2
     font_name = "helv"
 
     header_left = "LAPORAN PROYEK UTS • BIG DATA ANALYTICS (FEB UNESA)"
-    header_right = "Pramono Tirta L. & Achmad Azhar A."
-    footer_left_text = "S1 BISNIS DIGITAL 2023 • E-COMMERCE OLIST EDA"
+    header_right = "Dosen Pengampu: Anita Safitri, M. Kom."
+    footer_left_text = "S1 BISNIS DIGITAL 2023 • Pramono Tirta L. & Achmad Azhar A."
 
     unesa_icon_path = WEEK6_ROOT / "figures" / "unesa-logo.png"
     rect_unesa = pymupdf.Rect(56.7, 808.5, 68.7, 820.5)
