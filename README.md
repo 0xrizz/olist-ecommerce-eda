@@ -34,7 +34,7 @@ This repository hosts the official coursework project for **Big Data Analytics (
 | **Raw Datasets Folder** | [Google Drive Data Raw](https://drive.google.com/drive/folders/1ThnaciQefpKZxkSeI9DAktUeAKCOuK2-?usp=drive_link) | Unprocessed CSV source datasets from Kaggle Olist |
 | **Processed Datasets Folder** | [Google Drive Data Processed](https://drive.google.com/drive/folders/13pPoj6V8qU_oq20GbmbXqPdR2k9Hdt-g?usp=drive_link) | Cleaned, validated, and integrated transactional CSV |
 | **Master Coursework Drive Folder** | [Google Drive Submission Folder](https://drive.google.com/drive/folders/1aWfUipbLlvZINFzDbY7F5TA2XWoIrIB1?usp=drive_link) | Complete project repository archive on Google Drive |
-| **Formal Publication PDF** | [laporan-proyek-uts.pdf](./laporan-proyek-uts.pdf) | Formal 7-chapter FEB UNESA report rendered with newsletter typography |
+| **Formal Publication PDF** | [report.pdf](./report.pdf) | Formal 7-chapter FEB UNESA report rendered with newsletter typography |
 
 ---
 
@@ -128,8 +128,8 @@ Mean Delay on Breached Orders      10.0 working days   Substantial operational v
 ├── README.md                      # Open-source project documentation and portfolio guide
 ├── Brief.md                       # Academic assignment specification & compliance checklist
 ├── main.ipynb                     # Production 8-stage DE/ML pipeline executed on Google Colab VM
-├── laporan-proyek-uts.md          # Master 7-chapter FEB UNESA report (Markdown source)
-├── laporan-proyek-uts.pdf         # Official report PDF with newsletter typography & vector graphics
+├── report.md                      # Master 7-chapter FEB UNESA report (Markdown source)
+├── report.pdf                     # Official report PDF with newsletter typography & vector graphics
 ├── data/
 │   ├── raw/                       # Source Kaggle transactional extracts
 │   │   ├── order_items.csv        # 800 transaction item records

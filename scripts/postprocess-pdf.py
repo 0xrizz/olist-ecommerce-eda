@@ -18,7 +18,7 @@ import pymupdf
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 WEEK6_ROOT = SCRIPT_DIR.parent
-DEFAULT_PDF = WEEK6_ROOT / "laporan-proyek-uts.pdf"
+DEFAULT_PDF = WEEK6_ROOT / "report.pdf"
 
 TARGET_HEADINGS = [
     (1, "Halaman Judul & Identitas Proyek", r"LAPORAN.*PROYEK UJIAN TENGAH SEMESTER", 1),

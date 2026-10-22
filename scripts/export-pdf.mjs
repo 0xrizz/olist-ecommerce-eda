@@ -7,10 +7,10 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const WEEK6_ROOT = path.resolve(__dirname, '..');
-const INPUT_MD = path.resolve(WEEK6_ROOT, 'laporan-proyek-uts.md');
+const INPUT_MD = path.resolve(WEEK6_ROOT, 'report.md');
 const STYLESHEET = path.resolve(WEEK6_ROOT, 'scripts/pdf-styles.css');
 const TEMP_HTML = path.resolve('/tmp', 'bigdata_uts_report.html');
-const OUTPUT_PDF = path.resolve(WEEK6_ROOT, 'laporan-proyek-uts.pdf');
+const OUTPUT_PDF = path.resolve(WEEK6_ROOT, 'report.pdf');
 
 function log(msg) {
   const ts = new Date().toISOString();
