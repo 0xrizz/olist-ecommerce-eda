@@ -1,17 +1,24 @@
 @page {
   size: A4 portrait;
-  margin: 20mm 20mm 25mm 25mm;
+  margin: 18mm 20mm 22mm 20mm;
 }
 
 @page :first {
-  margin: 25mm 20mm 25mm 25mm;
+  margin: 20mm 20mm 20mm 20mm;
 }
 
+/* ==========================================================================
+   Typography: Newsletter Font Pairing
+   - Headings: Serif (Charter, Merriweather, Georgia)
+   - Body: Sans-Serif (Inter, Helvetica Neue, Arial)
+   - Code & Technical: Monospace (JetBrains Mono, Consolas)
+   ========================================================================== */
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 9.5pt;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 9pt;
   line-height: 1.55;
-  color: #1e293b;
+  color: #111827;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
@@ -19,81 +26,90 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #0f172a;
+  font-family: "Charter", "Merriweather", "Source Serif Pro", "Georgia", serif;
+  color: #111827;
   font-weight: 700;
   page-break-after: avoid;
   break-after: avoid;
 }
 
 h1:first-of-type {
-  font-size: 19pt;
-  color: #1e3a8a;
+  font-size: 17pt;
   text-align: center;
-  border-bottom: 3px double #1e3a8a;
+  border-bottom: 2pt solid #000000;
   padding-bottom: 8px;
-  margin-top: 10pt;
+  margin-top: 8pt;
   margin-bottom: 6pt;
+  letter-spacing: -0.3px;
 }
 
 h1:first-of-type + h2 {
-  font-size: 13pt;
-  color: #3b82f6;
+  font-family: "Inter", sans-serif;
+  font-size: 11pt;
+  color: #4b5563;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   border-bottom: none;
   margin-top: 0;
-  margin-bottom: 16pt;
+  margin-bottom: 14pt;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 13.5pt;
-  color: #1e3a8a;
-  border-bottom: 1.5pt solid #93c5fd;
+  font-size: 13pt;
+  border-bottom: 1.5pt solid #000000;
   padding-bottom: 4px;
-  margin-top: 22pt;
-  margin-bottom: 10pt;
+  margin-top: 20pt;
+  margin-bottom: 8pt;
   page-break-before: auto;
+  letter-spacing: -0.2px;
 }
 
 h3 {
-  font-size: 11pt;
-  color: #0f172a;
-  margin-top: 14pt;
-  margin-bottom: 6pt;
+  font-size: 10.5pt;
+  margin-top: 12pt;
+  margin-bottom: 5pt;
 }
 
 h4 {
-  font-size: 10pt;
-  color: #334155;
-  margin-top: 10pt;
-  margin-bottom: 4pt;
+  font-size: 9.5pt;
+  color: #374151;
+  margin-top: 9pt;
+  margin-bottom: 3pt;
 }
 
 p {
-  margin: 7pt 0;
+  margin: 6pt 0;
   text-align: justify;
 }
 
-/* Cover page break */
-hr:first-of-type {
+/* Monochrome Rules */
+hr {
   border: 0;
   height: 1px;
-  background: #cbd5e1;
-  margin: 16pt 0;
+  background: #000000;
+  margin: 14pt 0;
+}
+
+hr:first-of-type {
+  height: 1.5px;
+  background: #000000;
+  margin: 14pt 0;
 }
 
 /* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 10pt 0;
-  font-size: 8.5pt;
+  margin: 9pt 0;
+  font-size: 8.2pt;
   line-height: 1.35;
 }
 
 table th, table td {
-  border: 0.75pt solid #94a3b8;
-  padding: 5pt 7pt;
+  border: 0.75pt solid #d1d5db;
+  padding: 4.5pt 6.5pt;
   vertical-align: top;
 }
 
@@ -102,14 +118,17 @@ thead {
 }
 
 th {
-  background-color: #1e3a8a;
+  background-color: #111827;
   color: #ffffff;
+  font-family: "JetBrains Mono", Consolas, monospace;
+  font-size: 7.8pt;
   font-weight: 600;
   text-align: left;
+  letter-spacing: 0.3px;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #f8fafc;
+  background-color: #f9fafb;
 }
 
 tr {
@@ -117,30 +136,30 @@ tr {
   break-inside: avoid;
 }
 
-/* Code Blocks */
+/* Technical & Code Elements */
 pre {
-  background-color: #f8fafc;
-  border: 0.75pt solid #cbd5e1;
-  border-left: 3pt solid #3b82f6;
-  border-radius: 4pt;
-  padding: 8pt 10pt;
-  font-size: 8pt;
-  line-height: 1.4;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-color: #f9fafb;
+  border: 0.75pt solid #e5e7eb;
+  border-left: 3pt solid #111827;
+  border-radius: 0;
+  padding: 7pt 9pt;
+  font-size: 7.8pt;
+  line-height: 1.38;
+  font-family: "JetBrains Mono", Consolas, Menlo, "Courier New", monospace;
   overflow-x: auto;
   page-break-inside: avoid;
   break-inside: avoid;
-  margin: 9pt 0;
+  margin: 8pt 0;
 }
 
 code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 8.2pt;
-  background-color: #f1f5f9;
-  padding: 1.5pt 3.5pt;
-  border-radius: 3pt;
-  border: 0.5pt solid #e2e8f0;
-  color: #0f172a;
+  font-family: "JetBrains Mono", Consolas, Menlo, "Courier New", monospace;
+  font-size: 8pt;
+  background-color: #f3f4f6;
+  padding: 1pt 3pt;
+  border-radius: 2pt;
+  border: 0.5pt solid #e5e7eb;
+  color: #111827;
 }
 
 pre code {
@@ -150,54 +169,107 @@ pre code {
   font-size: inherit;
 }
 
-/* Images & Figures */
+/* Visual Figures (Keep full color, clean monochrome borders) */
 img {
   display: block;
   max-width: 95%;
   height: auto;
-  margin: 10pt auto 4pt auto;
-  border-radius: 4pt;
-  border: 0.75pt solid #cbd5e1;
-  box-shadow: 0 1pt 3pt rgba(0, 0, 0, 0.06);
+  margin: 8pt auto 3pt auto;
+  border-radius: 2pt;
+  border: 0.75pt solid #e5e7eb;
 }
 
 p:has(img) {
   text-align: center;
   page-break-inside: avoid;
   break-inside: avoid;
-  margin: 12pt 0;
+  margin: 10pt 0;
 }
 
-/* Blockquotes & Callouts */
+/* Callout Takeaways & Blockquotes */
 blockquote {
-  border-left: 3pt solid #2563eb;
-  background-color: #eff6ff;
-  margin: 9pt 0;
+  border-left: 3px solid #111827;
+  background-color: #f9fafb;
+  margin: 8pt 0;
   padding: 6pt 10pt;
-  color: #1e40af;
-  font-size: 9pt;
-  border-radius: 0 4pt 4pt 0;
+  color: #1f2937;
+  font-size: 8.8pt;
+  border-radius: 0;
 }
 
 /* Lists */
 ul, ol {
-  margin: 6pt 0;
-  padding-left: 18pt;
+  margin: 5pt 0;
+  padding-left: 16pt;
 }
 
 li {
-  margin-bottom: 3pt;
+  margin-bottom: 2.5pt;
 }
 
 /* Links */
 a {
-  color: #1d4ed8;
+  color: #111827;
   text-decoration: underline;
+  font-weight: 500;
   word-break: break-all;
 }
 
-/* Cover page break rule */
+/* Cover Page Elements */
 .cover-end {
   page-break-after: always;
   break-after: page;
+}
+
+.cover-header {
+  text-align: center;
+  margin-bottom: 12pt;
+}
+
+.cover-logo-unesa {
+  max-width: 75px;
+  height: auto;
+  margin: 0 auto 6pt auto;
+  border: none;
+  box-shadow: none;
+}
+
+.cover-inst-title {
+  font-family: "Inter", sans-serif;
+  font-size: 10.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.cover-inst-sub {
+  font-size: 8.5pt;
+  color: #4b5563;
+  margin-top: 2pt;
+}
+
+.cover-colab-badge {
+  border: 1pt solid #111827;
+  background-color: #f9fafb;
+  padding: 7pt 10pt;
+  margin-top: 14pt;
+  text-align: center;
+}
+
+.cover-colab-logo {
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 6pt;
+  display: inline-block;
+  border: none;
+}
+
+.cover-colab-text {
+  font-family: "JetBrains Mono", Consolas, monospace;
+  font-size: 8pt;
+  color: #111827;
+  vertical-align: middle;
+  display: inline-block;
 }
