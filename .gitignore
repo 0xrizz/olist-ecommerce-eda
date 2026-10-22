@@ -1,0 +1,18 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Environments & OS
+.env
+.env*.local
+.DS_Store
+
+# Academic briefs and instructor prompts (hw-scaffold sub-repo governance)
+Brief.md
+*.brief.md
+original-request.brief.md
