@@ -11,8 +11,18 @@ env/
 .env
 .env*.local
 .DS_Store
+uv.lock
 
 # Academic briefs and instructor prompts (hw-scaffold sub-repo governance)
 Brief.md
 *.brief.md
 original-request.brief.md
+
+# PDF Exporter & Local Build Tools
+scripts/
+*.tmp.pdf
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/

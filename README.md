@@ -1,5 +1,7 @@
 # Olist E-Commerce Logistics & Profitability EDA
 
+[![CI Pipeline](https://github.com/0xrizz/olist-ecommerce-eda/actions/workflows/ci.yml/badge.svg)](https://github.com/0xrizz/olist-ecommerce-eda/actions/workflows/ci.yml)
+[![Tests: 18 passed](https://img.shields.io/badge/Tests-18%20passed-brightgreen.svg)](tests/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.2%2B-150458.svg)](https://pandas.pydata.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.13%2B-4c72b0.svg)](https://seaborn.pydata.org/)
@@ -125,8 +127,14 @@ Mean Delay on Breached Orders      10.0 working days   Substantial operational v
 
 ```
 .
+├── .github/
+│   └── workflows/
+│       └── ci.yml                 # Automated GitHub Actions test execution workflow
 ├── README.md                      # Open-source project documentation and portfolio guide
 ├── Brief.md                       # Academic assignment specification & compliance checklist
+├── pyproject.toml                 # Project metadata & Pytest configuration
+├── requirements.txt               # Standalone production & testing dependencies
+├── LICENSE                        # MIT Open Source License
 ├── main.ipynb                     # Production 8-stage DE/ML pipeline executed on Google Colab VM
 ├── report.md                      # Master 7-chapter FEB UNESA report (Markdown source)
 ├── report.pdf                     # Official report PDF with newsletter typography & vector graphics
@@ -144,10 +152,12 @@ Mean Delay on Breached Orders      10.0 working days   Substantial operational v
 │   ├── grafik_1.png               # Top 10 GMV horizontal bar chart
 │   ├── grafik_2.png               # Price vs freight ratio OLS scatter plot
 │   └── grafik_3.png               # SLA delay & delivery duration grouped bar chart
-└── scripts/                       # Automated build, rendering, and post-processing tools
-    ├── export-pdf.mjs             # Pandoc and headless Google Chrome PDF export engine
-    ├── postprocess-pdf.py         # PyMuPDF bookmark outline and running header/footer stamper
-    └── pdf-styles.css             # Newsletter typography styling rules and monochrome palettes
+└── tests/                         # Production Pytest quality assurance test suite (18 tests)
+    ├── __init__.py                # Test package marker
+    ├── conftest.py                # Dataset session fixtures and timestamp parsers
+    ├── test_data_contracts.py     # Schema validation, PK/FK uniqueness & referential integrity
+    ├── test_transformations.py    # Cleaning reconciliation, feature formulas & boundaries
+    └── test_business_metrics.py   # GMV concentration, SLA delay rates & regression tests
 ```
 
 ---
@@ -182,6 +192,22 @@ Click the badge below to run the notebook instantly in Google Colab without loca
    ```bash
    jupyter notebook main.ipynb
    ```
+
+---
+
+## Testing & Quality Assurance
+
+The repository includes a comprehensive 18-test modular `pytest` suite ensuring schema contracts, mathematical calculations, and empirical business metrics remain 100% verified:
+
+```bash
+# Run test suite
+pytest tests/ -v
+```
+
+Test coverage includes:
+- **Data Contracts (`tests/test_data_contracts.py`)**: Composite Key `(order_id, order_item_id)` uniqueness, Primary Key uniqueness on `product_id` and `order_id`, and full Foreign Key referential integrity.
+- **Transformations (`tests/test_transformations.py`)**: Row count reconciliation (800 raw -> 763 clean), zero-null critical columns, `total_item_value == price + freight_value`, `freight_ratio` percentage bounds, and delivery duration consistency.
+- **Business Metrics (`tests/test_business_metrics.py`)**: Top 10 GMV concentration (>= 60%), price tier freight disparity (budget > premium), and carrier SLA breach rate (18.61%).
 
 ---
 
